@@ -1,0 +1,126 @@
+.header {
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+.navigation {
+  width: 1440px;
+  margin: 8px 13px 16px 13px;
+}
+
+.navigation__content {
+  width: var(--main-content-width);
+  padding: 15px var(--main-padding-left);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+.navigation__list li {
+  list-style: none;
+}
+
+.navigation__list li a {
+  color: rgba(0, 0, 0, 0.81);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.navigation__btn {
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  width: 115.42px;
+  height: 41.47px;
+}
+
+.header__main {
+  width: var(--main-content-width);
+  padding: 0 var(--main-padding-left);
+  display: flex;
+  gap: 19px;
+}
+.main__contentWrap {
+  width: 592.93px;
+  height: 343.75px;
+}
+
+.main__contentWrap h6 {
+  color: #fcc028;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 7px;
+}
+.main__contentWrap h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 80px;
+}
+.main__contentWrap h4 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 35px;
+  color: #207733;
+  padding-bottom: 7px;
+}
+.main__contentWrap p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 35px;
+}
+
+.main__pixWrap {
+  width: 596.28px;
+  height: 557.88px;
+}
+.main__pixWrap img {
+  width: 100%;
+  height: 100%;
+}
+.main__contentWrap-btnwrap {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.main__contentWrap-btnwrap button {
+  background: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+  border-radius: 4.86806px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  width: 152.86px;
+  height: 41.47px;
+}
+.main__contentWrap-btnwrap span {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.download {
+  width: 23.37px;
+  height: 23.37px;
+  fill: var(--tertiary-color);
+}
