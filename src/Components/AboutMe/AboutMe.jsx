@@ -17,7 +17,7 @@ const AboutMe = () => {
           <h6>A BIT</h6>
           <h3>About Me</h3>
           <p>
-            I am a Frontend Engineer with 4 years of experience in front-end
+            I am a Frontend Engineer with 3years+ of experience in front-end
             engineering and end-to-end product development. I am passionate
             about building products that improve lives with a seamless user
             experience. Idayat is capable and able to work autonomously.
