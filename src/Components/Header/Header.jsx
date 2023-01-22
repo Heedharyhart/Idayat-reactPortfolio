@@ -1,6 +1,7 @@
 import "./Header.css";
 import { FaDownload } from "react-icons/fa";
-import { HashLink} from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
+import { ExternalLink } from "react-external-link";
 
 const Header = () => {
   return (
@@ -47,16 +48,19 @@ const Header = () => {
             <h4>Frontend Engineer/Developer</h4>
             <p>
               Experienced front-end web developer who is adept in all stages of
-              Frontend Web development. She is knowledgeable in the user interface,
-              writing codes, testing, and debugging processes. I am bringing
-              forth my expertise in web development, design, analysis, testing,
-              and maintenance. I am well-equipped with a diverse promising skill
-              set and proficient in different technologies including React, Typescript, JavaScript, HTML, SCSS,
-              and Tailwindcss. Able to effectively self-manage during independent projects and
-              collaborate in a team setting
+              Frontend Web development. She is knowledgeable in the user
+              interface, writing codes, testing, and debugging processes. I am
+              bringing forth my expertise in web development, design, analysis,
+              testing, and maintenance. I am well-equipped with a diverse
+              promising skill set and proficient in different technologies
+              including React, Typescript, JavaScript, HTML, SCSS, and
+              Tailwindcss. Able to effectively self-manage during independent
+              projects and collaborate in a team setting
             </p>
             <div className="main__contentWrap-btnwrap">
-              <button>Hire me</button>
+              <ExternalLink href="https://docs.google.com/document/d/1i-Km611f7LfpXirZA8qd4KX9XFCf9HFZ/edit?usp=sharing&ouid=117068055065774077234&rtpof=true&sd=true">
+                <button>View CV</button>
+              </ExternalLink>
               <span>
                 Download CV
                 <FaDownload className="download" />
